@@ -26,10 +26,78 @@ body{
 
 main{
     background-color: var(--White-color);
-    width: 40%;
+    width: 50%;
     margin: 70px auto;
     padding: 2.3rem;
     border-radius: 0.7rem;
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
 }
+
+.controlBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationsAlert{
+    font-weight: 800;
+    font-size: larger;
+}
+
+#notificationNumber{
+    background-color: var(--primaryBlue);
+    color: var(--White-color);
+    padding: 0.05rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+#markAll{
+    color: var(--Gray--600-color);
+
+    &:hover{
+        color: var(--primaryBlue);
+        cursor: pointer;
+    }
+}
+
+.notifications{
+    display: flex;
+    /* height: 4rem; */
+    gap: 1rem;
+    margin: 0.8rem auto;
+    padding: 1.1rem;
+    border-radius: 0.6rem;
+}
+
+.userImg{
+    height: 75px;
+}
+.postPic{
+    justify-self: flex-end;
+}
+
+.userNameAndUpdate *{
+    margin: 0.5rem 0;
+    color: var(--Gray--600-color);
+}
+.userNameAndUpdate p:first-child{
+    
+}
+.userName{
+    color: black;
+}
+.groupReaction, .postReaction{
+    font-weight: 800;
+}
+
+.userName, .groupReaction, .postReaction{
+    &:hover{
+        color: var(--primaryBlue);
+        cursor: pointer;
+    }
+}
+
+.unread{
+    background-color: var(--Navy-50-color);
+}
+
 
