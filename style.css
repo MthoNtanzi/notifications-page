@@ -72,7 +72,14 @@ main{
     height: 75px;
 }
 .postPic{
+    border: 2px var(--White-color) solid;
+    border-radius: 0.8rem;
     justify-self: flex-end;
+}
+
+.postPic:hover{
+    cursor: pointer;
+    border: 2px var(--Navy--100-color) solid;
 }
 
 .userNameAndUpdate *{
@@ -94,6 +101,16 @@ main{
         color: var(--primaryBlue);
         cursor: pointer;
     }
+}
+
+.message{
+    padding: 0.9rem;
+    border: 1px var(--Navy--100-color) solid;
+    border-radius: 0.3rem;
+}
+.message:hover{
+    cursor:pointer;
+    background-color: var(--Blue-100-color);
 }
 
 .unread{
