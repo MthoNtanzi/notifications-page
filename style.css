@@ -75,6 +75,12 @@ main{
     border: 2px var(--White-color) solid;
     border-radius: 0.8rem;
     justify-self: flex-end;
+    
+
+    /* talking point */
+    flex-grow: 1;
+    object-fit: contain;
+    object-position: right;
 }
 
 .postPic:hover{
@@ -86,9 +92,7 @@ main{
     margin: 0.5rem 0;
     color: var(--Gray--600-color);
 }
-.userNameAndUpdate p:first-child{
-    
-}
+
 .userName{
     color: black;
 }
